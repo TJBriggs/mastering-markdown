@@ -1,5 +1,7 @@
 # Mastering Markdown
 
+
+
 ## Paragraph Text
 
 Paragraph text can be a single line or multiple lines.
@@ -8,15 +10,27 @@ An empty line is needed to create separate paragraphs.
 
 Example paragraph with multiple lines of text...Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 
+
+
 ## Text Styling
 
-**Bold** text with double asterisks &ast;&ast;Bold&ast;&ast;
+**Bold Text** 
 
-_Italic_ text single underscores &lowbar;Italic&lowbar;
+&ast;&ast;Bold Text&ast;&ast; wrapped with double asterisks.
 
-*Italic* text with single asterisks &ast;Italic&ast;
+_Italic Text_ 
 
-~~Strikethrough~~ with double tildes &tilde;&tilde;strikethrough&tilde;&tilde;
+&lowbar;Italic Text&lowbar; wrapped with single underscores.
+
+*Italic Text*
+
+&ast;Italic Text&ast; wrapped with single asterisks.
+
+~~Strikethrough Text~~ 
+
+&tilde;&tilde;Strikethrough Text&tilde;&tilde; wrapped with double tildes.
+
+
 
 ## Hashed Headings 
 
@@ -24,29 +38,31 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 
 **Note:** Headings created with hashes have up to 6 variations.
 
-&#35;Heading 1 with single hash
-
 # Heading 1
 
-&#35;&#35;Heading 2 with double hashes
+&#35;Heading 1 with single hash
 
 ## Heading 2
 
-&#35;&#35;&#35;Heading 3 with three hashes
+&#35;&#35;Heading 2 with double hashes
 
 ### Heading 3
 
-&#35;&#35;&#35;&#35;Heading 4 with four hashes
+&#35;&#35;&#35;Heading 3 with three hashes
 
 #### Heading 4
 
-&#35;&#35;&#35;&#35;&#35;Heading 5 with five hashes
+&#35;&#35;&#35;&#35;Heading 4 with four hashes
 
 ##### Heading 5
 
-&#35;&#35;&#35;&#35;&#35;&#35;Heading 6 with six hashes
+&#35;&#35;&#35;&#35;&#35;Heading 5 with five hashes
 
 ###### Heading 6
+
+&#35;&#35;&#35;&#35;&#35;&#35;Heading 6 with six hashes
+
+
 
 ## Headings With Equal Signs or Dashes Below
 
@@ -59,6 +75,8 @@ Heading 1
 
 Heading 2
 ------------------
+
+
 
 ## Links in Markdown
 
