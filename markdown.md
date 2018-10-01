@@ -13,8 +13,10 @@ Return 1
 Return 2
 Return 3
 
-*Bold* Text One Asterisk
+**Bold** text with double asterisks **
 
-**Bold** Text One Asterisk
+_Italic_ text single underscores _
 
-_Italic_ Text
+*Italic* text with single asterisks *
+
+~~Strikethrough~~ with double tildas ~~
