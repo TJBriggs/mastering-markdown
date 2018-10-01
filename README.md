@@ -261,7 +261,7 @@ Bullets can be created with &ast; or &plus; symbols.
 3. List Item 3
 4. List Item 4
 
-Start each ordered list with `1.` so that numbering automatically updates when new items are added.
+_Start each ordered list with `1.` so that numbering automatically updates when new items are added._
 
 **Example:**
 
@@ -314,7 +314,7 @@ Double
 
 Line Break
 
-Simply add a return between lines to create a double line break.
+_Simply add a return between lines to create a double line break._
 
 **Example:** 
 
