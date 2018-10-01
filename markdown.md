@@ -187,7 +187,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 #### HTML Image Nested Within Link (Internal Image)
 
-[ <img src="images/image-thumb.jpg" alt="Alt text"> ](https://github.com/TJBriggs/mastering-markdown/blob/master/images/image.jpg "Title text for link")
+[ <img src="images/image-thumb.jpg" alt="Alt text"> ](images/image.jpg "Title text for link")
 
 **Example:** 
 
