@@ -13,6 +13,8 @@ Return 1
 Return 2
 Return 3
 
-**Bold** Text
+*Bold* Text One Asterisk
 
-_Underline_ Text
+**Bold** Text One Asterisk
+
+_Italic_ Text
