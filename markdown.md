@@ -157,11 +157,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 ## Markdown Images
 
-![Alt text for the image](http://unsplash.it/500/500?random "Title text for image")
+![Alt text for the image](http://unsplash.it/250/250?random "Title text for image")
 
 **Example:** 
 
-\![Alt text for the image](http://unsplash.it/500/500?random "Title text for image")
+&excl;&lsqb;Alt text for the image&rsqb;&lpar;http://unsplash.it/500/500?random "Title text for image"&rpar;
 
 <br/>
 
