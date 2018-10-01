@@ -157,7 +157,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 ## Markdown Images
 
-![Alt text for the image](http://unsplash.it/250/250?random "Title text for image")
+#### Bracket Style Image
+
+![Alt text for the image](http://unsplash.it/50/50?random "Title text for image")
 
 **Example:** 
 
@@ -165,9 +167,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 <br/>
 
+#### Nested Image Link
 
+[ ![Alt text for the image](http://unsplash.it/50/50?image=1000) ](http://unsplash.it/50/50?image=1000 "Title text for link")
 
-[1]: http://thadbriggs.com
+**Example:** 
 
+&lsqb; &excl;&lsqb;Alt text for the image&rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=1000&rpar; &rsqb;&lpar;http://<span></span>unsplash.it/500/500?random "Title text for image"&rpar;
 
+<br/>
+
+#### HTML Image Link
+
+[ <img src="http://unsplash.it/50/50?image=1000" alt="Alt text"> ](http://unsplash.it/50/50?image=1000 "Title text for link")
+
+**Example:** 
+
+&lsqb; &lt;img src="http://<span></span>unsplash.it/50/50?image=1000" alt="Alt text"&gt; &rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=1000&rpar; &rsqb;&lpar;http://<span></span>unsplash.it/500/500?random "Title text for image"&rpar;
 
