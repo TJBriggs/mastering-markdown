@@ -1,5 +1,7 @@
 # Mastering Markdown
 
+This markdown file contains all the lessons and example code from [Wes Bos'][2] online course [Mastering Markdown][3]. It is meant to be a quick reference for all things related to Markdown. 
+
 <br>
 
 ## Table of Contents
@@ -444,3 +446,5 @@ Use pipes &vert; to seperate columns and cells. Align text with the use of colon
 <br>
 
 [1]: http://thadbriggs.com
+[2]: https://wesbos.com
+[3]: https://masteringmarkdown.com
