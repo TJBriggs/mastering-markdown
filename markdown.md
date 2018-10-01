@@ -246,11 +246,11 @@ Start each ordered list with 1. so you can add items after the fact and the numb
 **Example:**
 
 <span></span>1. List Item 1<br/>
-	&ast; Nested Item
+&nbsp;&nbsp;&nbsp;&nbsp;&ast; Nested Item
 <span></span>1. List Item 2<br/>
-	&plus; Nested Item
+&nbsp;&nbsp;&nbsp;&nbsp;&plus; Nested Item
 <span></span>1. List Item 3<br/>
-	<span></span>1. Nested Item	
+&nbsp;&nbsp;&nbsp;&nbsp;<span></span>1. Nested Item	
 <span></span>1. List Item 4
 
 <br/>
