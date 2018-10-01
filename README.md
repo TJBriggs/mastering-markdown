@@ -439,8 +439,8 @@ Use pipes &vert; to seperate columns and cells. Align text with the use of colon
 
 **Example:**
 
-&ast; &lsqb; &rsqb; Get Milk
-&ast; &lsqb;x&rsqb; Crack Eggs
+&ast; &lsqb; &rsqb; Get Milk<br>
+&ast; &lsqb;x&rsqb; Crack Eggs<br>
 &ast; &lsqb; &rsqb; Cook Bacon
 
 <br>
