@@ -96,8 +96,8 @@ Heading 1
 
 **Example:** 
 
-Heading 1\
-==================
+Heading 1<br/>
+&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;
 
 <br/>
 
@@ -106,8 +106,8 @@ Heading 2
 
 **Example:** 
 
-Heading 2\
-------------------
+Heading 2<br/>
+&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;
 
 <br/>
 
