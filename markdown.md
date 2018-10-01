@@ -179,15 +179,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 #### HTML Image Nested Within Link
 
-[ <img src="http://unsplash.it/50/50?image=300" alt="Alt text"> ](http://unsplash.it/500/500?image=300 "Title text for link")
+[ <img src="http://unsplash.it/50/50?image=250" alt="Alt text"> ](http://unsplash.it/500/500?image=250 "Title text for link")
 
 **Example:** 
 
-&lsqb; &lt;img src="http://<span></span>unsplash.it/50/50?image=300" alt="Alt text"&gt; &rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=300&rpar; &rsqb;&lpar;http://<span></span>unsplash.it/500/500?image=300 "Title text for link"&rpar;
+&lsqb; &lt;img src="http://<span></span>unsplash.it/50/50?image=250" alt="Alt text"&gt; &rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=250&rpar; &rsqb;&lpar;http://<span></span>unsplash.it/500/500?image=250 "Title text for link"&rpar;
 
 #### HTML Image Nested Within Link (Internal Image)
 
-[ <img src="images/image-thumb.jpg" alt="Alt text"> ](http://unsplash.it/500/500?image=300 "Title text for link")
+[ <img src="images/image-thumb.jpg" alt="Alt text"> ](https://github.com/TJBriggs/mastering-markdown/blob/master/images/image.jpg "Title text for link")
 
 **Example:** 
 
