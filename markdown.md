@@ -121,7 +121,7 @@ Heading 2<br/>
 
 <br/>
 
-#### Bracket Link
+#### Bracket Link Text
 
 [Link Text](http://thadbriggs.com)
 
@@ -129,7 +129,7 @@ Heading 2<br/>
 
 <br/>
 
-#### Bracket Link w/Title Text
+#### Bracket Link Text w/Title Text
 
 Hover over the link to view the title text.
 
@@ -155,8 +155,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 <br/>
 
+## Markdown Images
 
+![Alt text for the image](http://unsplash.it/500/500?random "Title text for image")
 
+**Example:** 
+
+\![Alt text for the image](http://unsplash.it/500/500?random "Title text for image")
+
+<br/>
 
 
 
