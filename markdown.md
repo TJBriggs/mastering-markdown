@@ -193,18 +193,41 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 &lsqb; &lt;img src="images/image-thumb.jpg" alt="Alt text"&gt; &rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=300&rpar; &rsqb;&lpar;images/image.jpg "Title text for link"&rpar;
 
-## Inline Styling in Markdown
+<br/>
 
-You can use inline styling by simply adding style tags to the markdown document. Here is an example of a H3 created with HTML and styled with red text.
+## Markdown Lists
 
-<h3>Headline 3 with Red Text</h3>
+#### Unordered lists
 
-<style>
-	h3 {
-		color: red;
-	}
-</style>
++ List Item 1
++ List Item 2
++ List Item 3
++ List Item 4
 
+**Example:**
+
+&plus; List Item 1<br/>
+&plus; List Item 2<br/>
+&plus; List Item 3<br/>
+&plus; List Item 4
+
+<br/>
+
+#### Ordered Lists
+
+1. List Item 1
+2. List Item 2
+3. List Item 3
+4. List Item 4
+
+**Example:**
+
+\1. List Item 1<br/>
+\1. List Item 2<br/>
+\1. List Item 3<br/>
+\1. List Item 4
+
+<br/>
 
 
 
