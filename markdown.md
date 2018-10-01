@@ -117,7 +117,7 @@ Heading 2<br/>
 
 <http://thadbriggs.com>
 
-**Example:** \<http://thadbriggs.com>
+**Example:** \<http://<span></span>thadbriggs.com>
 
 <br/>
 
