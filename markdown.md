@@ -107,25 +107,25 @@ Heading 2
 **Example:** 
 
 Heading 2<br/>
-&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;
+&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;
 
 <br/>
 
 ## Links in Markdown
 
-Link with URL wrapped in &lt; and &gt;
-
-**Example:** &lt; http://thadbriggs.com &gt;
+Link with URL wrapped in &lt;&gt;
 
 <http://thadbriggs.com>
+
+**Example:** &lt; http://thadbriggs.com &gt;
 
 <br/>
 
 Link text wrapped in brackets &lsqb;&rsqb; and link URL wrapped in parenthesis &lpar;&rpar;.
 
-**Example:** &lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com&rpar;
-
 [Link Text](http://thadbriggs.com)
+
+**Example:** &lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com&rpar;
 
 <br/>
 
@@ -133,19 +133,23 @@ Link text wrapped in brackets &lsqb;&rsqb; and link URL wrapped in parenthesis &
 
 Hover over the link to view the title text.
 
-**Example:** &lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com "This is a link to my site."&rpar;
-
 [Link Text](http://thadbriggs.com "This is a link to my site.")
+
+**Example:** &lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com "This is a link to my site."&rpar;
 
 <br/>
 
-You can create a footnote style key for the link URL. This can help keep the markdown text clean which comes in handy when a link is embedded within paragraph text. Here are examples showing the syntax for this link style. 
-
-**Example Link w/key:** &lsqb;Link Text&rsqb;&lsqb;Link Key&rsqb;
-
-**Example key defined at the bottom of the page:** &lsqb;Link Key&rsqb;: http://thadbriggs.com
+You can also create a footnote style key for the link URL. This can help keep markdown text clean which comes in handy when a link is embedded within paragraph text. Here are examples showing the syntax for this link style. 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Sit Amet Pharetra[Link Text][1] Adipiscing Amet Sem Mollis.
+
+**Example Link w/key:** 
+
+&lsqb;Link Text&rsqb;&lsqb;1&rsqb;
+
+**Example key defined at the bottom of the page:** 
+
+&lsqb;1&rsqb;: http://thadbriggs.com
 
 <br/>
 
