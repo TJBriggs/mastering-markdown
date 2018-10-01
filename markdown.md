@@ -167,9 +167,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 <br/>
 
-#### Nested Image Link
+#### Nested Bracket Image Within Link
 
-[ ![Alt text for the image](http://unsplash.it/50/50?image=1000) ](http://unsplash.it/50/50?image=1000 "Title text for link")
+[ ![Alt text for the image](http://unsplash.it/50/50?image=1000) ](http://unsplash.it/500/500?image=1000 "Title text for link")
 
 **Example:** 
 
@@ -177,9 +177,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 <br/>
 
-#### HTML Image Link
+#### Nested HTML Image Within Link
 
-[ <img src="http://unsplash.it/50/50?image=1000" alt="Alt text"> ](http://unsplash.it/50/50?image=1000 "Title text for link")
+[ <img src="http://unsplash.it/50/50?image=1000" alt="Alt text"> ](http://unsplash.it/500/500?image=1000 "Title text for link")
 
 **Example:** 
 
