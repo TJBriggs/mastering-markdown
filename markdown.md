@@ -313,6 +313,30 @@ Element or text after rule
 
 <br>
 
+## Code Blocks
+
+#### Code Indentation
+
+	const x = 1 + 5;
+	const y = x + 3;
+
+<br>
+
+#### Code Back Ticks
+
+```const m = 1 + 5;
+const n = m + 3;```
+
+<br>
+
+#### Inline Back Ticks
+
+Hey did you try this code `var x = 100;`?
+
+<br>
+
+
+
 
 
 
