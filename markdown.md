@@ -6,7 +6,7 @@ Paragraph text can be a single line or multiple lines.
 
 An empty line is needed to create separate paragraphs.
 
-Another paragraph with multiple lines of text...Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+Example paragraph with multiple lines of text...Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 
 ## Text Styling
 
@@ -24,23 +24,35 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 
 **Note:** Headings created with hashes have up to 6 variations.
 
-# H1 with single hash &#35;H1
+&#35;Heading 1 with single hash
 
-## H2 with double hashes &#35;&#35;H2
+# Heading 1
 
-### H2 with three hashes &#35;&#35;&#35;H3
+&#35;&#35;Heading 2 with double hashes
 
-#### H2 with four hashes &#35;&#35;&#35;&#35;H4
+## Heading 2
 
-##### H2 with five hashes &#35;&#35;&#35;&#35;&#35;H5
+&#35;&#35;&#35;Heading 3 with three hashes
 
-###### H6 with six hashes &#35;&#35;&#35;&#35;&#35;&#35;H6
+### Heading 3
 
-## Headings with Equal Signs or Dashes below
+&#35;&#35;&#35;&#35;Heading 4 with four hashes
+
+#### Heading 4
+
+&#35;&#35;&#35;&#35;&#35;Heading 5 with five hashes
+
+##### Heading 5
+
+&#35;&#35;&#35;&#35;&#35;&#35;Heading 6 with six hashes
+
+###### Heading 6
+
+## Headings With Equal Signs or Dashes Below
 
 You need atleast 3 of each symbol to trigger this style of heading.
 
-**Note:** This heading style has on 2 variations (Heading 1 & 2).
+**Note:** This heading style only has 2 variations (Heading 1 & 2).
 
 Heading 1
 ==================
@@ -51,6 +63,8 @@ Heading 2
 ## Links in Markdown
 
 Link with URL wrapped in &lt; and &gt;
+
+&lt; http://thadbriggs.com &gt;
 
 <http://thadbriggs.com>
 
@@ -68,7 +82,7 @@ Creating a footnote style key for the link URL can help keep the markdown text c
 
 **Example key definition at the bottom of the page:** &lsqb;Link Key&rsqb;: http://thadbriggs.com
 
-[Link Text][1]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Sit Amet Pharetra[Link Text][1] Adipiscing Amet Sem Mollis.
 
 
 
