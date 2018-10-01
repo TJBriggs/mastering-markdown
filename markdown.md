@@ -18,9 +18,11 @@ _Italic_ text single underscores _
 
 ~~Strikethrough~~ with double tildas ~~
 
-## Headings Variations
+## Hashed Headings 
 
-Hashed headings create IDs for anchor linking which can come in handy for a table of contents.
+Headings create IDs for anchor linking which can come in handy for a table of contents.
+
+**Note:** Headings created with hashes have up to 6 variations.
 
 # H1 with single hash #
 
@@ -34,9 +36,11 @@ Hashed headings create IDs for anchor linking which can come in handy for a tabl
 
 ###### H6 with six hashes ######
 
-### Headings with Equal Signs or Dashes
+## Headings with Equal Signs or Dashes
 
 You need atleast 3 of each symbol to trigger this style of heading.
+
+**Note:** This heading style has on 2 variations (Heading 1 & 2).
 
 Heading 1
 ==================
