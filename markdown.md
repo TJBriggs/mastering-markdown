@@ -113,7 +113,7 @@ Heading 2<br/>
 
 ## Links in Markdown
 
-##### URL link
+#### URL link
 
 <http://thadbriggs.com>
 
@@ -121,7 +121,7 @@ Heading 2<br/>
 
 <br/>
 
-##### Bracket Link
+#### Bracket Link
 
 [Link Text](http://thadbriggs.com)
 
@@ -129,7 +129,7 @@ Heading 2<br/>
 
 <br/>
 
-##### Bracket Link w/Title Text
+#### Bracket Link w/Title Text
 
 Hover over the link to view the title text.
 
@@ -139,7 +139,7 @@ Hover over the link to view the title text.
 
 <br/>
 
-##### Footnote Style Link
+#### Footnote Style Link
 
 You can also create a footnote style key for the link URL. This can help keep markdown text clean which comes in handy when a link is embedded within paragraph text. Here are examples showing the syntax for this link style. 
 
