@@ -18,20 +18,20 @@
 	1. [Bracket Image](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#bracket-image)
 	2. [Bracket Image w/Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#bracket-image-wlink)
 	3. [HTML Image w/Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#html-image-wlink)
-	4. [Internal HTML Image w/Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#internal-html-image-wlink)
+	4. [Internal Image w/Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#internal-image-wlink)
 6. [Lists](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#lists)
 	1. [Unordered List](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#unordered-list)
 	2. [Ordered List](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#ordered-list)
 	3. [Nested List](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#nested-list)
-7. [Line Breaks, Horizontal Rules and Blockquotes](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#lists)
+7. [Line Breaks, Horizontal Rules and Blockquotes](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#line-breaks-horizontal-rules-and-blockquotes)
 	1. [Single Line Break](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#single-line-break)
 	2. [Double Line Break](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#double-line-break)
 	3. [Horizontal Rule](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#horizontal-rule)
 	4. [Blockquote](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#blockquote)
 8. [Code](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code)
-	1. [Code Block - Indentation](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code-block-indentaion)
-	2. [Code Block - Back Ticks](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code-block-back-ticks)
-	3. [Diff Code Block](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code-block-w/diff-code-block)
+	1. [Code Block - Indentation](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code-block---indentation)
+	2. [Code Block - Back Ticks](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code-block---back-ticks)
+	3. [Diff Code Block](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#diff-code-block)
 	4. [Inline Code](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#inline-code)
 9. [Tables](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#tables)
 10. [Checkboxes](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#checkboxes)
@@ -224,7 +224,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 &lsqb; &lt;img src="http://<span></span>unsplash.it/50/50?image=250" alt="Alt text"&gt; &rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=250&rpar; &rsqb;&lpar;http://<span></span>unsplash.it/500/500?image=250 "Title text for link"&rpar;
 
-### HTML Image w/Link (Internal Image)
+### Internal Image w/Link
 
 [ <img src="images/image-thumb.jpg" alt="Alt text"> ](images/image.jpg "Title text for link")
 
