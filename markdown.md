@@ -204,6 +204,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 + List Item 3
 + List Item 4
 
+* List Item 1
+* List Item 2
+* List Item 3
+* List Item 4
+
 **Example:**
 
 &plus; List Item 1<br/>
@@ -222,10 +227,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 **Example:**
 
-\1. List Item 1<br/>
-\1. List Item 2<br/>
-\1. List Item 3<br/>
-\1. List Item 4
+<span></span>1. List Item 1<br/>
+<span></span>1. List Item 2<br/>
+<span></span>1. List Item 3<br/>
+<span></span>1. List Item 4
+
+<br/>
+
+#### Nested Lists
+
+1. List Item 1
+	* Nested Item
+2. List Item 2
+	1. Nested Item
+3. List Item 3
+	+ Nested Item
+4. List Item 4
 
 <br/>
 
