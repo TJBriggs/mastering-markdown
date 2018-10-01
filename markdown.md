@@ -320,12 +320,28 @@ Element or text after rule
 	const x = 1 + 5;
 	const y = x + 3;
 
+**Example:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;const x = 1 + 5;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;const y = x + 3;
+
 <br>
 
 #### Code Back Ticks
 
-```const m = 1 + 5;
-const n = m + 3;```
+Define the code language to allow syntax highlighting.
+
+```js
+const m = 1 + 5;
+const n = m + 3;
+```
+
+**Example:**
+
+&grave;&grave;&grave;js
+const m = 1 + 5;<br>
+const n = m + 3;
+&grave;&grave;&grave;
 
 <br>
 
@@ -333,7 +349,27 @@ const n = m + 3;```
 
 Hey did you try this code `var x = 100;`?
 
+**Example:** Hey did you try this code &grave;var x = 100;&grave;?
+
 <br>
+
+#### Diff Code w/Back Ticks
+
+```diff
+const m = 1 + 5;
+- const n = m + 3;
++ const n = b + 3;
+```
+**Example:**
+
+&grave;&grave;&grave;diff
+const m = 1 + 5;<br>
+&minus; const n = m + 3;<br>
+&plus; const n = b + 3;
+&grave;&grave;&grave;
+
+<br>
+
 
 
 
