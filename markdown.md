@@ -113,15 +113,15 @@ Heading 2<br/>
 
 ## Links in Markdown
 
-Link with URL wrapped in &lt;&gt;
+##### URL link
 
 <http://thadbriggs.com>
 
-**Example:** &lt; http://thadbriggs.com &gt;
+**Example:** &lt;http://thadbriggs.com &gt;
 
 <br/>
 
-Link text wrapped in brackets &lsqb;&rsqb; and link URL wrapped in parenthesis &lpar;&rpar;.
+##### Bracket Link
 
 [Link Text](http://thadbriggs.com)
 
@@ -129,7 +129,7 @@ Link text wrapped in brackets &lsqb;&rsqb; and link URL wrapped in parenthesis &
 
 <br/>
 
-Link text wrapped in brackets &lsqb;&rsqb; and link URL wrapped in parenthesis &lpar;&rpar; with optional title text inside the parenthesis. The title text needs to be wrapped in quotes.
+##### Bracket Link w/Title Text
 
 Hover over the link to view the title text.
 
@@ -138,6 +138,8 @@ Hover over the link to view the title text.
 **Example:** &lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com "This is a link to my site."&rpar;
 
 <br/>
+
+##### Footnote Style Link
 
 You can also create a footnote style key for the link URL. This can help keep markdown text clean which comes in handy when a link is embedded within paragraph text. Here are examples showing the syntax for this link style. 
 
