@@ -167,21 +167,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 <br/>
 
-#### Nested Bracket Image Within Link
+#### Bracket Image Nested Within Link
 
-[ ![Alt text for the image](http://unsplash.it/50/50?image=1000) ](http://unsplash.it/500/500?image=1000 "Title text for link")
+[ ![Alt text for the image](http://unsplash.it/50/50?image=500) ](http://unsplash.it/500/500?image=500 "Title text for link")
 
 **Example:** 
 
-&lsqb; &excl;&lsqb;Alt text for the image&rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=1000&rpar; &rsqb;&lpar;http://<span></span>unsplash.it/500/500?random "Title text for image"&rpar;
+&lsqb; &excl;&lsqb;Alt text for the image&rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=500&rpar; &rsqb;&lpar;http://<span></span>unsplash.it/500/500?image=500 "Title text for link"&rpar;
 
 <br/>
 
-#### Nested HTML Image Within Link
+#### HTML Image Nested Within Link
 
-[ <img src="http://unsplash.it/50/50?image=1000" alt="Alt text"> ](http://unsplash.it/500/500?image=1000 "Title text for link")
+[ <img src="http://unsplash.it/50/50?image=500" alt="Alt text"> ](http://unsplash.it/500/500?image=500 "Title text for link")
 
 **Example:** 
 
-&lsqb; &lt;img src="http://<span></span>unsplash.it/50/50?image=1000" alt="Alt text"&gt; &rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=1000&rpar; &rsqb;&lpar;http://<span></span>unsplash.it/500/500?random "Title text for image"&rpar;
+&lsqb; &lt;img src="http://<span></span>unsplash.it/50/50?image=500" alt="Alt text"&gt; &rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=500&rpar; &rsqb;&lpar;http://<span></span>unsplash.it/500/500?image=500 "Title text for link"&rpar;
 
