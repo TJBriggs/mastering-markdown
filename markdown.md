@@ -40,31 +40,31 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 
 # Heading 1
 
-&#35;Heading 1 with single hash
+&#35; Heading 1 with single hash
 
 ## Heading 2
 
-&#35;&#35;Heading 2 with double hashes
+&#35;&#35; Heading 2 with double hashes
 
 ### Heading 3
 
-&#35;&#35;&#35;Heading 3 with three hashes
+&#35;&#35;&#35; Heading 3 with three hashes
 
 #### Heading 4
 
-&#35;&#35;&#35;&#35;Heading 4 with four hashes
+&#35;&#35;&#35;&#35; Heading 4 with four hashes
 
 ##### Heading 5
 
-&#35;&#35;&#35;&#35;&#35;Heading 5 with five hashes
+&#35;&#35;&#35;&#35;&#35; Heading 5 with five hashes
 
 ###### Heading 6
 
-&#35;&#35;&#35;&#35;&#35;&#35;Heading 6 with six hashes
+&#35;&#35;&#35;&#35;&#35;&#35; Heading 6 with six hashes
 
 
 
-## Headings With Equal Signs or Dashes Below
+## Headings with Equal Signs or Dashes Below
 
 You need atleast 3 of each symbol to trigger this style of heading.
 
@@ -88,17 +88,21 @@ Link with URL wrapped in &lt; and &gt;
 
 Link text wrapped in brackets &lsqb;&rsqb; and link URL wrapped in parenthesis &lpar;&rpar;.
 
+&lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com&rpar;
+
 [Link Text](http://thadbriggs.com)
 
 Link text wrapped in brackets &lsqb;&rsqb; and link URL wrapped in parenthesis &lpar;&rpar; with optional title text inside the parenthesis. The title text needs to be wrapped in quotes.
 
+&lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com "This is a link to my site."&rpar;
+
 [Link Text](http://thadbriggs.com "This is a link to my site.")
 
-Creating a footnote style key for the link URL can help keep the markdown text clean especially when a link is within paragraph text. The link text below is wrapped in brackets &lsqb;&rsqb; and then the key text is also wrapped in brackets. The key is defined at the bottom of the document. Here is example text showing the syntax for this link style. 
+You can create a footnote style key for the link URL. This can keep the markdown text clean especially when a link is embedded within paragraph text. The link text below is wrapped in brackets &lsqb;&rsqb; and then the key text is also wrapped in brackets. The key is defined at the bottom of the document. Here are examples showing the syntax for this link style. 
 
 **Example Link w/key:** &lsqb;Link Text&rsqb;&lsqb;Link Key&rsqb;
 
-**Example key definition at the bottom of the page:** &lsqb;Link Key&rsqb;: http://thadbriggs.com
+**Example key defined at the bottom of the page:** &lsqb;Link Key&rsqb;: http://thadbriggs.com
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Sit Amet Pharetra[Link Text][1] Adipiscing Amet Sem Mollis.
 
