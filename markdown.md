@@ -264,7 +264,7 @@ Line Break
 
 **Example:** 
 
-Single&lt;br&gt;
+Single&lt;br&gt;<br>
 Line Break
 
 #### Double Line Break
@@ -276,7 +276,7 @@ Line Break
 **Example:** 
 
 Double
-&NewLine;
+<br><br>
 Line Break
 
 <br>
@@ -292,9 +292,9 @@ Element or text after rule
 **Example:**
 
 Element or text before rule
-&NewLine;
+<br><br>
 &minus;&minus;&minus;
-&NewLine;
+<br><br>
 Element or text after rule
 
 <br>
