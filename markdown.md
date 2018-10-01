@@ -1,5 +1,7 @@
 # Mastering Markdown
 
+<br/>
+
 ## Paragraph Text
 
 Paragraph text can be a single line or multiple lines.
@@ -14,25 +16,25 @@ Example paragraph with multiple lines of text...Integer posuere erat a ante vene
 
 **Bold Text** 
 
-&ast;&ast;Bold Text&ast;&ast; wrapped with double asterisks.
+**Example:** &ast;&ast;Bold Text&ast;&ast;
 
 <br/>
 
 _Italic Text_ 
 
-&lowbar;Italic Text&lowbar; wrapped with single underscores.
+**Example:** &lowbar;Italic Text&lowbar;
 
 <br/>
 
 *Italic Text*
 
-&ast;Italic Text&ast; wrapped with single asterisks.
+**Example:** &ast;Italic Text&ast;
 
 <br/>
 
 ~~Strikethrough Text~~ 
 
-&tilde;&tilde;Strikethrough Text&tilde;&tilde; wrapped with double tildes.
+**Example:** &tilde;&tilde;Strikethrough Text&tilde;&tilde;
 
 <br/>
 
@@ -42,39 +44,42 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 
 **Note:** Headings created with hashes have up to 6 variations.
 
+<br/>
+
 # Heading 1
 
-&#35; Heading 1 with single hash
+**Example:** &#35; Heading 1
 
 <br/>
 
 ## Heading 2
 
-&#35;&#35; Heading 2 with double hashes
+**Example:** &#35;&#35; Heading 2
 
 <br/>
 
 ### Heading 3
 
-&#35;&#35;&#35; Heading 3 with three hashes
+**Example:** &#35;&#35;&#35; Heading 3
+
 
 <br/>
 
 #### Heading 4
 
-&#35;&#35;&#35;&#35; Heading 4 with four hashes
+**Example:** &#35;&#35;&#35;&#35; Heading 4
 
 <br/>
 
 ##### Heading 5
 
-&#35;&#35;&#35;&#35;&#35; Heading 5 with five hashes
+**Example:** &#35;&#35;&#35;&#35;&#35; Heading 5
 
 <br/>
 
 ###### Heading 6
 
-&#35;&#35;&#35;&#35;&#35;&#35; Heading 6 with six hashes
+**Example:** &#35;&#35;&#35;&#35;&#35;&#35; Heading 6
 
 <br/>
 
@@ -89,7 +94,19 @@ You need atleast 3 of each symbol to trigger this style of heading.
 Heading 1
 ==================
 
+**Example:** 
+
+Heading 1\
+==================
+
+<br/>
+
 Heading 2
+------------------
+
+**Example:** 
+
+Heading 2\
 ------------------
 
 <br/>
