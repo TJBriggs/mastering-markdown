@@ -302,8 +302,8 @@ Element or text after rule
 #### Block Quotes
 
 > Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-
-> - Quote Byline
+>
+> — Quote Byline
 
 <br>
 
