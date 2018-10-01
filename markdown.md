@@ -1,6 +1,6 @@
 # Mastering Markdown
 
-<br/>
+<br>
 
 ## Paragraph Text
 
@@ -10,7 +10,7 @@ An empty line is needed to create separate paragraphs.
 
 Example paragraph with multiple lines of text...Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 
-<br/>
+<br>
 
 ## Text Styling
 
@@ -18,25 +18,25 @@ Example paragraph with multiple lines of text...Integer posuere erat a ante vene
 
 **Example:** &ast;&ast;Bold Text&ast;&ast;
 
-<br/>
+<br>
 
 _Italic Text_ 
 
 **Example:** &lowbar;Italic Text&lowbar;
 
-<br/>
+<br>
 
 *Italic Text*
 
 **Example:** &ast;Italic Text&ast;
 
-<br/>
+<br>
 
 ~~Strikethrough Text~~ 
 
 **Example:** &tilde;&tilde;Strikethrough Text&tilde;&tilde;
 
-<br/>
+<br>
 
 ## Hashed Headings 
 
@@ -44,44 +44,44 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 
 **Note:** Headings created with hashes have up to 6 variations.
 
-<br/>
+<br>
 
 # Heading 1
 
 **Example:** &#35; Heading 1
 
-<br/>
+<br>
 
 ## Heading 2
 
 **Example:** &#35;&#35; Heading 2
 
-<br/>
+<br>
 
 ### Heading 3
 
 **Example:** &#35;&#35;&#35; Heading 3
 
 
-<br/>
+<br>
 
 #### Heading 4
 
 **Example:** &#35;&#35;&#35;&#35; Heading 4
 
-<br/>
+<br>
 
 ##### Heading 5
 
 **Example:** &#35;&#35;&#35;&#35;&#35; Heading 5
 
-<br/>
+<br>
 
 ###### Heading 6
 
 **Example:** &#35;&#35;&#35;&#35;&#35;&#35; Heading 6
 
-<br/>
+<br>
 
 ## Headings with Equal Signs or Dashes Below
 
@@ -89,17 +89,17 @@ You need atleast 3 symbols to trigger this style of heading.
 
 **Note:** This heading style only has 2 variations (Heading 1 & 2).
 
-<br/>
+<br>
 
 Heading 1
 ==================
 
 **Example:** 
 
-Heading 1<br/>
+Heading 1<br>
 &equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;&equals;
 
-<br/>
+<br>
 
 Heading 2
 ------------------
@@ -249,11 +249,58 @@ Start each ordered list with 1. so you can add items after the fact and the numb
 &nbsp;&nbsp;&nbsp;&nbsp;&ast; Nested Item
 <span></span>1. List Item 2<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&plus; Nested Item
-<span></span>1. List Item 3<br/>
+<span></span>1. List Item 3<br>
 &nbsp;&nbsp;&nbsp;&nbsp;<span></span>1. Nested Item	
 <span></span>1. List Item 4
 
-<br/>
+<br>
+
+## Line Breaks, Horizontal Rule, and Block Quotes
+
+#### Single Line Break
+
+Single<br>
+Line Break
+
+**Example:** 
+
+Single&lt;br&gt;
+Line Break
+
+#### Double Line Break
+
+Double
+
+Line Break
+
+**Example:** 
+
+Double
+&NewLine;
+Line Break
+
+<br>
+
+#### Horizontal Rule
+
+Element or text before rule
+
+---
+
+Element or text after rule
+
+**Example:**
+
+Element or text before rule
+&NewLine;
+&minus;&minus;&minus;
+&NewLine;
+Element or text after rule
+
+<br>
+
+
+
 
 
 
