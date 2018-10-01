@@ -1,6 +1,6 @@
 # Mastering Markdown
 
-This markdown file contains all the lessons and example code from [Wes Bos'][2] online course [Mastering Markdown][3]. It is meant to be a quick reference for all things related to Markdown. 
+This markdown file contains all the lessons and example code from [Wes Bos'][2] online course [Mastering Markdown][3]. It is meant to be a quick reference for all things markdown related. 
 
 <br>
 
@@ -76,8 +76,6 @@ _Italic Text_
 <br>
 
 ## Headings
-
-<br>
 
 ### Hashed Headings 
 
@@ -182,15 +180,15 @@ Hover over the link to view the title text.
 
 ### Footnote Link
 
-You can also create a footnote style key for the link URL. This can help keep markdown text clean which comes in handy when a link is embedded within paragraph text. Here are examples showing the syntax for this link style. 
+Footnote links can improve readability which comes in handy when a link is embedded within paragraph text. Here is an example of an embedded link: 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Sit Amet Pharetra [Link Text][1] Adipiscing Amet Sem Mollis.
 
-**Example Link w/key:** 
+**Example link w/key:** 
 
 &lsqb;Link Text&rsqb;&lsqb;1&rsqb;
 
-**Example key defined at the bottom of the page:** 
+**Example key defined at the bottom of the document as a footnote:** 
 
 &lsqb;1&rsqb;: http://<span></span>thadbriggs.com
 
