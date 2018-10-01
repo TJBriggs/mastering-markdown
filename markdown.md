@@ -382,7 +382,7 @@ Use pipes &vert; to seperate columns and cells. Align text with the use of colon
 **Example:**
 
 &vert;Column 1 Title&vert;Column 2 Title&vert;<br>
-&vert;&colon;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&colon;&vert;&colon;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&colon;&vert;<br>
+&vert;&colon;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&colon;&vert;&colon;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&colon;&vert;<br>
 &vert;Row 1/Cell 1&vert;Row 1/Cell 2&vert;<br>
 &vert;Row 2/Cell 1&vert;Row 2/Cell 2&vert;
 
