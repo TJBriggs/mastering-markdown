@@ -1,7 +1,5 @@
 # Mastering Markdown
 
-<br/>
-<br/>
 ## Paragraph Text
 
 Paragraph text can be a single line or multiple lines.
@@ -12,6 +10,7 @@ Example paragraph with multiple lines of text...Integer posuere erat a ante vene
 
 <br/>
 <br/>
+
 ## Text Styling
 
 **Bold Text** 
@@ -32,6 +31,7 @@ _Italic Text_
 
 <br/>
 <br/>
+
 ## Hashed Headings 
 
 Headings create IDs for anchor linking which can come in handy for a table of contents.
@@ -64,6 +64,7 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 
 <br/>
 <br/>
+
 ## Headings with Equal Signs or Dashes Below
 
 You need atleast 3 of each symbol to trigger this style of heading.
@@ -78,6 +79,7 @@ Heading 2
 
 <br/>
 <br/>
+
 ## Links in Markdown
 
 Link with URL wrapped in &lt; and &gt;
