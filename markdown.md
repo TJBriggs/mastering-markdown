@@ -85,7 +85,7 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 
 ## Headings with Equal Signs or Dashes Below
 
-You need atleast 3 of each symbol to trigger this style of heading.
+You need atleast 3 symbols to trigger this style of heading.
 
 **Note:** This heading style only has 2 variations (Heading 1 & 2).
 
