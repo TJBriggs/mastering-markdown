@@ -199,26 +199,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 #### Unordered lists
 
-+ List Item 1
-+ List Item 2
-+ List Item 3
-+ List Item 4
+Bullets can be created with &ast; or &plus; symbols.
 
-* List Item 1
++ List Item 1
 * List Item 2
-* List Item 3
++ List Item 3
 * List Item 4
 
 **Example:**
 
 &plus; List Item 1<br/>
-&plus; List Item 2<br/>
+&ast; List Item 2<br/>
 &plus; List Item 3<br/>
-&plus; List Item 4
+&ast; List Item 4
 
 <br/>
 
 #### Ordered Lists
+
+Start each ordered list with 1. so you can add items after the fact and the numbering will automatically update.
 
 1. List Item 1
 2. List Item 2
@@ -243,6 +242,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 3. List Item 3
 	+ Nested Item
 4. List Item 4
+
+**Example:**
+
+<span></span>1. List Item 1<br/>
+	&ast; Nested Item
+<span></span>1. List Item 2<br/>
+	&plus; Nested Item
+<span></span>1. List Item 3<br/>
+	<span></span>1. Nested Item	
+<span></span>1. List Item 4
 
 <br/>
 
