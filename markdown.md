@@ -1,14 +1,14 @@
 # Mastering Markdown
 
-Hello there - welcome to _mastering markdown_!
+## Paragraph Text
 
-Here is paragraph text
+Paragraph text can be a single line or multiple lines.
 
-An empty line is needed to create separate paragraphs
+An empty line is needed to create separate paragraphs.
 
-Another paragraph...Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+Another paragraph with multiple lines of text...Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 
-Text Styling:
+## Text Styling
 
 **Bold** text with double asterisks **
 
@@ -18,9 +18,9 @@ _Italic_ text single underscores _
 
 ~~Strikethrough~~ with double tildas ~~
 
-Headings:
+## Headings Variations
 
-Hashed headings create IDs for anchor linking which can come in handy for a table of contents
+Hashed headings create IDs for anchor linking which can come in handy for a table of contents.
 
 # H1 with single hash #
 
@@ -34,9 +34,9 @@ Hashed headings create IDs for anchor linking which can come in handy for a tabl
 
 ###### H6 with six hashes ######
 
-Headings with Equal Signs or Dashes
+### Headings with Equal Signs or Dashes
 
-You need atleast 3 of each symbol to trigger this style of heading
+You need atleast 3 of each symbol to trigger this style of heading.
 
 Heading 1
 ==================
