@@ -15,15 +15,20 @@ Example paragraph with multiple lines of text...Integer posuere erat a ante vene
 **Bold Text** 
 
 &ast;&ast;Bold Text&ast;&ast; wrapped with double asterisks.
+
 <br/>
 
 _Italic Text_ 
 
 &lowbar;Italic Text&lowbar; wrapped with single underscores.
 
+<br/>
+
 *Italic Text*
 
 &ast;Italic Text&ast; wrapped with single asterisks.
+
+<br/>
 
 ~~Strikethrough Text~~ 
 
@@ -40,23 +45,32 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 # Heading 1
 
 &#35; Heading 1 with single hash
+
 <br/>
 
 ## Heading 2
 
 &#35;&#35; Heading 2 with double hashes
 
+<br/>
+
 ### Heading 3
 
 &#35;&#35;&#35; Heading 3 with three hashes
+
+<br/>
 
 #### Heading 4
 
 &#35;&#35;&#35;&#35; Heading 4 with four hashes
 
+<br/>
+
 ##### Heading 5
 
 &#35;&#35;&#35;&#35;&#35; Heading 5 with five hashes
+
+<br/>
 
 ###### Heading 6
 
@@ -69,6 +83,8 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 You need atleast 3 of each symbol to trigger this style of heading.
 
 **Note:** This heading style only has 2 variations (Heading 1 & 2).
+
+<br/>
 
 Heading 1
 ==================
@@ -86,17 +102,25 @@ Link with URL wrapped in &lt; and &gt;
 
 <http://thadbriggs.com>
 
+<br/>
+
 Link text wrapped in brackets &lsqb;&rsqb; and link URL wrapped in parenthesis &lpar;&rpar;.
 
 **Example:** &lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com&rpar;
 
 [Link Text](http://thadbriggs.com)
 
+<br/>
+
 Link text wrapped in brackets &lsqb;&rsqb; and link URL wrapped in parenthesis &lpar;&rpar; with optional title text inside the parenthesis. The title text needs to be wrapped in quotes.
+
+Hover over the link to view the title text.
 
 **Example:** &lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com "This is a link to my site."&rpar;
 
 [Link Text](http://thadbriggs.com "This is a link to my site.")
+
+<br/>
 
 You can create a footnote style key for the link URL. This can help keep the markdown text clean which comes in handy when a link is embedded within paragraph text. Here are examples showing the syntax for this link style. 
 
@@ -105,6 +129,8 @@ You can create a footnote style key for the link URL. This can help keep the mar
 **Example key defined at the bottom of the page:** &lsqb;Link Key&rsqb;: http://thadbriggs.com
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Sit Amet Pharetra[Link Text][1] Adipiscing Amet Sem Mollis.
+
+<br/>
 
 
 
