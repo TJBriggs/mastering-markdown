@@ -2,6 +2,41 @@
 
 <br>
 
+## Table of Contents
+
+1. [Paragraph Text](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#paragraph-text)
+2. [Text Styling](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#text-styling)
+3. [Headings](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#headings)
+	1. [Hashed Headings](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#headings)
+	2. [Headings with Equal Signs or Dashes](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#headings-with-equal-signs-or-dashes-below)
+4. [Links](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#links)
+	1. [URL Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#url-link)
+	2. [Bracket Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#bracket-link)
+	3. [Bracket Link w/Title Text](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#bracket-link-w/title-text)
+	4. [Footnote Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#footnote-link)
+5. [Images](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#images)
+	1. [Bracket Image](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#bracket-image)
+	2. [Bracket Image w/Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#bracket-image-w/link)
+	3. [HTML Image w/Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#html-image-w/link)
+	4. [Internal HTML Image w/Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#internal-html-image-w.link)
+6. [Lists](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#lists)
+	1. [Unordered List](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#unordered-list)
+	2. [Ordered List](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#ordered-list)
+	3. [Nested List](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#nested-list)
+7. [Line Breaks, Horizontal Rules and Blockquotes](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#lists)
+	1. [Single Line Break](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#single-line-break)
+	2. [Double Line Break](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#double-line-break)
+	3. [Horizontal Rule](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#horizontal-rule)
+	4. [Blockquote](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#blockquote)
+8. [Code](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code)
+	1. [Code Block - Indentation](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code-block-indentaion)
+	2. [Code Block - Back Ticks](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code-block-back-ticks)
+	3. [Diff Code Block](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code-block-w/diff-code-block)
+	4. [Inline Code](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code-block-w/inline-code)
+9. [Tables](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#tables)
+10. [Checkboxes](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#checkboxes)
+
+
 ## Paragraph Text
 
 Paragraph text can be a single line or multiple lines.
@@ -38,7 +73,11 @@ _Italic Text_
 
 <br>
 
-## Hashed Headings 
+## Headings
+
+<br>
+
+### Hashed Headings 
 
 Headings create IDs for anchor linking which can come in handy for a table of contents.
 
@@ -83,7 +122,7 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 
 <br>
 
-## Headings with Equal Signs or Dashes Below
+### Headings with Equal Signs or Dashes
 
 You need atleast 3 symbols to trigger this style of heading.
 
@@ -111,9 +150,9 @@ Heading 2<br/>
 
 <br/>
 
-## Links in Markdown
+## Links
 
-#### URL link
+### URL link
 
 <http://thadbriggs.com>
 
@@ -121,7 +160,7 @@ Heading 2<br/>
 
 <br/>
 
-#### Bracket Link Text
+### Bracket Link
 
 [Link Text](http://thadbriggs.com)
 
@@ -129,7 +168,7 @@ Heading 2<br/>
 
 <br/>
 
-#### Bracket Link Text w/Title Text
+### Bracket Link w/Title Text
 
 Hover over the link to view the title text.
 
@@ -139,7 +178,7 @@ Hover over the link to view the title text.
 
 <br/>
 
-#### Footnote Style Link
+### Footnote Link
 
 You can also create a footnote style key for the link URL. This can help keep markdown text clean which comes in handy when a link is embedded within paragraph text. Here are examples showing the syntax for this link style. 
 
@@ -155,9 +194,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 <br/>
 
-## Markdown Images
+## Images
 
-#### Bracket Style Image
+### Bracket Image
 
 ![Alt text for the image](http://unsplash.it/50/50?random "Title text for image")
 
@@ -167,7 +206,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 <br/>
 
-#### Bracket Image Nested Within Link
+### Bracket Image w/Link
 
 [ ![Alt text for the image](http://unsplash.it/50/50?image=500) ](http://unsplash.it/500/500?image=500 "Title text for link")
 
@@ -177,7 +216,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 <br/>
 
-#### HTML Image Nested Within Link
+### HTML Image w/Link
 
 [ <img src="http://unsplash.it/50/50?image=250" alt="Alt text"> ](http://unsplash.it/500/500?image=250 "Title text for link")
 
@@ -185,7 +224,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 &lsqb; &lt;img src="http://<span></span>unsplash.it/50/50?image=250" alt="Alt text"&gt; &rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=250&rpar; &rsqb;&lpar;http://<span></span>unsplash.it/500/500?image=250 "Title text for link"&rpar;
 
-#### HTML Image Nested Within Link (Internal Image)
+### HTML Image w/Link (Internal Image)
 
 [ <img src="images/image-thumb.jpg" alt="Alt text"> ](images/image.jpg "Title text for link")
 
@@ -195,9 +234,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 <br/>
 
-## Markdown Lists
+## Lists
 
-#### Unordered lists
+### Unordered list
 
 Bullets can be created with &ast; or &plus; symbols.
 
@@ -215,7 +254,7 @@ Bullets can be created with &ast; or &plus; symbols.
 
 <br/>
 
-#### Ordered Lists
+### Ordered List
 
 Start each ordered list with 1. so you can add items after the fact and the numbering will automatically update.
 
@@ -233,7 +272,7 @@ Start each ordered list with 1. so you can add items after the fact and the numb
 
 <br/>
 
-#### Nested Lists
+#### Nested List
 
 1. List Item 1
 	* Nested Item
@@ -255,9 +294,9 @@ Start each ordered list with 1. so you can add items after the fact and the numb
 
 <br>
 
-## Line Breaks, Horizontal Rule, and Block Quotes
+## Line Breaks, Horizontal Rules and Blockquotes
 
-#### Single Line Break
+### Single Line Break
 
 Single<br>
 Line Break
@@ -267,7 +306,9 @@ Line Break
 Single&lt;br&gt;<br>
 Line Break
 
-#### Double Line Break
+<br>
+
+### Double Line Break
 
 Double
 
@@ -281,7 +322,7 @@ Line Break
 
 <br>
 
-#### Horizontal Rule
+### Horizontal Rule
 
 Element or text before rule
 
@@ -299,7 +340,7 @@ Element or text after rule
 
 <br>
 
-#### Block Quotes
+### Blockquote
 
 > Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 >
@@ -313,9 +354,9 @@ Element or text after rule
 
 <br>
 
-## Code Blocks
+## Code
 
-#### Code Indentation
+### Code Block - Indentation
 
 	const x = 1 + 5;
 	const y = x + 3;
@@ -327,7 +368,7 @@ Element or text after rule
 
 <br>
 
-#### Code Back Ticks
+### Code Block - Back Ticks
 
 Define the code language to allow syntax highlighting.
 
@@ -345,15 +386,7 @@ const n = m + 3;<br>
 
 <br>
 
-#### Inline Back Ticks
-
-Hey did you try this code `var x = 100;`?
-
-**Example:** Hey did you try this code &grave;var x = 100;&grave;?
-
-<br>
-
-#### Diff Code w/Back Ticks
+### Diff Code Block
 
 ```diff
 const m = 1 + 5;
@@ -370,7 +403,15 @@ const m = 1 + 5;<br>
 
 <br>
 
-## Tables in Markdown
+### Inline Code
+
+Hey did you try this code `var x = 100;`?
+
+**Example:** Hey did you try this code &grave;var x = 100;&grave;?
+
+<br>
+
+## Tables
 
 Use pipes &vert; to seperate columns and cells. Align text with the use of colons. Colon on the left (left-align), colon on right (right-align), colons on both sides (center-align).
 
@@ -382,18 +423,24 @@ Use pipes &vert; to seperate columns and cells. Align text with the use of colon
 **Example:**
 
 &vert;Column 1 Title&vert;Column 2 Title&vert;<br>
-&vert;&colon;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&colon;&vert;&colon;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&colon;&vert;<br>
+&vert;&colon;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&colon;&vert;&colon;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&colon;&vert;<br>
 &vert;Row 1/Cell 1&vert;Row 1/Cell 2&vert;<br>
 &vert;Row 2/Cell 1&vert;Row 2/Cell 2&vert;
 
 <br>
 
+## Checkboxes
 
+* [ ] Get Milk
+* [x] Crack Eggs
+* [ ] Cook Bacon
 
+**Example:**
 
+&ast; &lsqb; &rsqb; Get Milk
+&ast; &lsqb;x&rsqb; Crack Eggs
+&ast; &lsqb; &rsqb; Cook Bacon
 
-
-
-
+<br>
 
 [1]: http://thadbriggs.com
