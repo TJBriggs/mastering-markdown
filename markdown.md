@@ -9,13 +9,13 @@ An empty line is needed to create separate paragraphs.
 Example paragraph with multiple lines of text...Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 
 <br/>
-<br/>
 
 ## Text Styling
 
 **Bold Text** 
 
 &ast;&ast;Bold Text&ast;&ast; wrapped with double asterisks.
+<br/>
 
 _Italic Text_ 
 
@@ -30,7 +30,6 @@ _Italic Text_
 &tilde;&tilde;Strikethrough Text&tilde;&tilde; wrapped with double tildes.
 
 <br/>
-<br/>
 
 ## Hashed Headings 
 
@@ -41,6 +40,7 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 # Heading 1
 
 &#35; Heading 1 with single hash
+<br/>
 
 ## Heading 2
 
@@ -63,7 +63,6 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 &#35;&#35;&#35;&#35;&#35;&#35; Heading 6 with six hashes
 
 <br/>
-<br/>
 
 ## Headings with Equal Signs or Dashes Below
 
@@ -77,7 +76,6 @@ Heading 1
 Heading 2
 ------------------
 
-<br/>
 <br/>
 
 ## Links in Markdown
