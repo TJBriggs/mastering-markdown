@@ -143,7 +143,7 @@ Hover over the link to view the title text.
 
 You can also create a footnote style key for the link URL. This can help keep markdown text clean which comes in handy when a link is embedded within paragraph text. Here are examples showing the syntax for this link style. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Sit Amet Pharetra[Link Text][1] Adipiscing Amet Sem Mollis.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Sit Amet Pharetra [Link Text][1] Adipiscing Amet Sem Mollis.
 
 **Example Link w/key:** 
 
@@ -151,7 +151,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 **Example key defined at the bottom of the page:** 
 
-&lsqb;1&rsqb;: http://thadbriggs.com
+&lsqb;1&rsqb;: http://<span></span>thadbriggs.com
 
 <br/>
 
@@ -191,5 +191,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 **Example:** 
 
-&lsqb; &lt;img src="images/image-thumb.jpg" alt="Alt text"&gt; &rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=300&rpar; &rsqb;&lpar;http://<span></span>unsplash.it/500/500?image=300 "Title text for link"&rpar;
+&lsqb; &lt;img src="images/image-thumb.jpg" alt="Alt text"&gt; &rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=300&rpar; &rsqb;&lpar;images/image.jpg "Title text for link"&rpar;
 
+## Inline Styling in Markdown
+
+You can use inline styling by simply adding style tags to the markdown document. Here is an example of a H3 created with HTML and styled with red text.
+
+<h3>Headline 3 with Red Text</h3>
+
+<style>
+	h3 {
+		color: red;
+	}
+</style>
+
+
+
+
+
+
+
+[1]: http://thadbriggs.com
