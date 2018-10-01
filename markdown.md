@@ -25,11 +25,11 @@ This markdown file contains all the lessons and example code from [Wes Bos'][2] 
 	1. [Unordered List](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#unordered-list)
 	2. [Ordered List](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#ordered-list)
 	3. [Nested List](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#nested-list)
-7. [Line Breaks, Horizontal Rules and Blockquotes](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#line-breaks-horizontal-rules-and-blockquotes)
+7. [Line Breaks, Horizontal Rules and BlockQuotes](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#line-breaks-horizontal-rules-and-blockquotes)
 	1. [Single Line Break](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#single-line-break)
 	2. [Double Line Break](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#double-line-break)
 	3. [Horizontal Rule](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#horizontal-rule)
-	4. [Blockquote](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#blockquote)
+	4. [BlockQuote](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#blockquote)
 8. [Code](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code)
 	1. [Code Block - Indentation](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code-block---indentation)
 	2. [Code Block - Back Ticks](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code-block---back-ticks)
@@ -188,7 +188,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 &lsqb;Link Text&rsqb;&lsqb;1&rsqb;
 
-**Example key defined at the bottom of the document as a footnote:** 
+**Example footnote key defined at bottomo of document:** 
 
 &lsqb;1&rsqb;: http://<span></span>thadbriggs.com
 
@@ -294,7 +294,7 @@ Start each ordered list with 1. so you can add items after the fact and the numb
 
 <br>
 
-## Line Breaks, Horizontal Rules and Blockquotes
+## Line Breaks, Horizontal Rules and BlockQuotes
 
 ### Single Line Break
 
@@ -340,7 +340,7 @@ Element or text after rule
 
 <br>
 
-### Blockquote
+### BlockQuote
 
 > Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 >
