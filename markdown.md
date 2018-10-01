@@ -17,3 +17,29 @@ _Italic_ text single underscores _
 *Italic* text with single asterisks *
 
 ~~Strikethrough~~ with double tildas ~~
+
+Headings:
+
+Hashed headings create IDs for anchor linking which can come in handy for a table of contents
+
+# H1 with single hash #
+
+## H2 with double hashes ##
+
+### H2 with three hashes ###
+
+#### H2 with four hashes ####
+
+##### H2 with five hashes #####
+
+###### H6 with six hashes ######
+
+Headings with Equal Signs or Dashes
+
+You need atleast 3 of each symbol to trigger this style of heading
+
+Heading 1
+==================
+
+Heading 2
+------------------
