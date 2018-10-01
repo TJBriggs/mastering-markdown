@@ -188,7 +188,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 &lsqb;Link Text&rsqb;&lsqb;1&rsqb;
 
-**Example footnote key defined at bottomo of document:** 
+**Example footnote key defined at bottom of the document:** 
 
 &lsqb;1&rsqb;: http://<span></span>thadbriggs.com
 
@@ -256,7 +256,7 @@ Bullets can be created with &ast; or &plus; symbols.
 
 ### Ordered List
 
-Start each ordered list with 1. so you can add items after the fact and the numbering will automatically update.
+Start each ordered list with `1.` so you can add items after the fact and the numbering will automatically update.
 
 1. List Item 1
 2. List Item 2
@@ -284,12 +284,12 @@ Start each ordered list with 1. so you can add items after the fact and the numb
 
 **Example:**
 
-<span></span>1. List Item 1<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&ast; Nested Item
-<span></span>1. List Item 2<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&plus; Nested Item
+<span></span>1. List Item 1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&ast; Nested Item<br>
+<span></span>1. List Item 2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&plus; Nested Item<br>
 <span></span>1. List Item 3<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<span></span>1. Nested Item	
+&nbsp;&nbsp;&nbsp;&nbsp;<span></span>1. Nested Item<br>
 <span></span>1. List Item 4
 
 <br>
