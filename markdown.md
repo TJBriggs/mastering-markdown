@@ -1,7 +1,7 @@
 # Mastering Markdown
 
-
-
+<br/>
+<br/>
 ## Paragraph Text
 
 Paragraph text can be a single line or multiple lines.
@@ -10,8 +10,8 @@ An empty line is needed to create separate paragraphs.
 
 Example paragraph with multiple lines of text...Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 
-
-
+<br/>
+<br/>
 ## Text Styling
 
 **Bold Text** 
@@ -30,8 +30,8 @@ _Italic Text_
 
 &tilde;&tilde;Strikethrough Text&tilde;&tilde; wrapped with double tildes.
 
-
-
+<br/>
+<br/>
 ## Hashed Headings 
 
 Headings create IDs for anchor linking which can come in handy for a table of contents.
@@ -62,8 +62,8 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 
 &#35;&#35;&#35;&#35;&#35;&#35; Heading 6 with six hashes
 
-
-
+<br/>
+<br/>
 ## Headings with Equal Signs or Dashes Below
 
 You need atleast 3 of each symbol to trigger this style of heading.
@@ -76,29 +76,29 @@ Heading 1
 Heading 2
 ------------------
 
-
-
+<br/>
+<br/>
 ## Links in Markdown
 
 Link with URL wrapped in &lt; and &gt;
 
-&lt; http://thadbriggs.com &gt;
+**Example:** &lt; http://thadbriggs.com &gt;
 
 <http://thadbriggs.com>
 
 Link text wrapped in brackets &lsqb;&rsqb; and link URL wrapped in parenthesis &lpar;&rpar;.
 
-&lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com&rpar;
+**Example:** &lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com&rpar;
 
 [Link Text](http://thadbriggs.com)
 
 Link text wrapped in brackets &lsqb;&rsqb; and link URL wrapped in parenthesis &lpar;&rpar; with optional title text inside the parenthesis. The title text needs to be wrapped in quotes.
 
-&lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com "This is a link to my site."&rpar;
+**Example:** &lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com "This is a link to my site."&rpar;
 
 [Link Text](http://thadbriggs.com "This is a link to my site.")
 
-You can create a footnote style key for the link URL. This can keep the markdown text clean especially when a link is embedded within paragraph text. The link text below is wrapped in brackets &lsqb;&rsqb; and then the key text is also wrapped in brackets. The key is defined at the bottom of the document. Here are examples showing the syntax for this link style. 
+You can create a footnote style key for the link URL. This can help keep the markdown text clean which comes in handy when a link is embedded within paragraph text. Here are examples showing the syntax for this link style. 
 
 **Example Link w/key:** &lsqb;Link Text&rsqb;&lsqb;Link Key&rsqb;
 
