@@ -340,7 +340,7 @@ const n = m + 3;
 
 &grave;&grave;&grave;js<br>
 const m = 1 + 5;<br>
-const n = m + 3;
+const n = m + 3;<br>
 &grave;&grave;&grave;
 
 <br>
@@ -365,7 +365,7 @@ const m = 1 + 5;
 &grave;&grave;&grave;diff<br>
 const m = 1 + 5;<br>
 &minus; const n = m + 3;<br>
-&plus; const n = b + 3;
+&plus; const n = b + 3;<br>
 &grave;&grave;&grave;
 
 <br>
@@ -380,6 +380,7 @@ Use pipes &vert; to seperate columns and cells. Align text with the use of colon
 |:Row 2/Cell 1|Row 2/Cell 2|
 
 **Example:**
+
 &vert;Column 1 Title&vert;Column 2 Title&vert;<br>
 &vert;&colon;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&colon;&vert;&colon;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&colon;&vert;<br>
 &vert;Row 1/Cell 1&vert;Row 1/Cell 2&vert;<br>
