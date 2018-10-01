@@ -24,17 +24,17 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 
 **Note:** Headings created with hashes have up to 6 variations.
 
-# H1 with single hash C&#35;
+# H1 with single hash &#35;
 
-## H2 with double hashes C&#35;C&#35;
+## H2 with double hashes &#35;&#35;
 
-### H2 with three hashes C&#35;C&#35;C&#35;
+### H2 with three hashes &#35;&#35;&#35;
 
-#### H2 with four hashes C&#35;C&#35;C&#35;C&#35;
+#### H2 with four hashes &#35;&#35;&#35;&#35;
 
-##### H2 with five hashes C&#35;C&#35;C&#35;C&#35;C&#35;
+##### H2 with five hashes &#35;&#35;&#35;&#35;&#35;
 
-###### H6 with six hashes C&#35;C&#35;C&#35;C&#35;C&#35;C&#35;
+###### H6 with six hashes &#35;&#35;&#35;&#35;&#35;&#35;
 
 ## Headings with Equal Signs or Dashes
 
@@ -47,3 +47,18 @@ Heading 1
 
 Heading 2
 ------------------
+
+## Links in Markdown
+
+Link with URL wrapped in &lt; and &gt;
+
+<http://thadbriggs.com>
+
+Link text wrapped in brackets &lsqb;&rsqb; and link URl wrapped in parenthesis &lpar;&rpar;.
+
+[Link Text](http://thadbriggs.com)
+
+Link text wrapped in brackets &lsqb;&rsqb; and link URl wrapped in parenthesis &lpar;&rpar; with optional title text inside the parenthesis. The title text needs to be wrapped in quotes.
+
+[Link Text](http://thadbriggs.com "This is a link to my site.")
+
