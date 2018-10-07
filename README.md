@@ -6,47 +6,45 @@ This markdown file contains all the lessons and example code from [Wes Bos'][2] 
 
 ## Table of Contents
 
-- [Mastering Markdown](#mastering-markdown)
-	- [Table of Contents](#table-of-contents)
-	- [Paragraph Text](#paragraph-text)
-	- [Text Styling](#text-styling)
-	- [Headings](#headings)
-		- [Hashed Headings](#hashed-headings)
-- [Heading 1](#heading-1)
-	- [Heading 2](#heading-2)
-		- [Heading 3](#heading-3)
-			- [Heading 4](#heading-4)
-				- [Heading 5](#heading-5)
-					- [Heading 6](#heading-6)
-		- [Headings with Equal Signs or Dashes](#headings-with-equal-signs-or-dashes)
-- [Heading 1](#heading-1)
-	- [Heading 2](#heading-2)
-	- [Links](#links)
-		- [URL link](#url-link)
-		- [Bracket Link](#bracket-link)
-		- [Bracket Link w/Title Text](#bracket-link-wtitle-text)
-		- [Footnote Link](#footnote-link)
-	- [Images](#images)
-		- [Bracket Image](#bracket-image)
-		- [Bracket Image w/Link](#bracket-image-wlink)
-		- [HTML Image w/Link](#html-image-wlink)
-		- [Internal Image w/Link](#internal-image-wlink)
-	- [Lists](#lists)
-		- [Unordered list](#unordered-list)
-		- [Ordered List](#ordered-list)
-			- [Nested List](#nested-list)
-	- [Line Breaks, Horizontal Rules and BlockQuotes](#line-breaks-horizontal-rules-and-blockquotes)
-		- [Single Line Break](#single-line-break)
-		- [Double Line Break](#double-line-break)
-		- [Horizontal Rule](#horizontal-rule)
-		- [BlockQuote](#blockquote)
-	- [Code](#code)
-		- [Code Block - Indentation](#code-block---indentation)
-		- [Code Block - Back Ticks](#code-block---back-ticks)
-		- [Diff Code Block](#diff-code-block)
-		- [Inline Code](#inline-code)
-	- [Tables](#tables)
-	- [Checkboxes](#checkboxes)
+1. [Paragraph Text](#paragraph-text)
+1. [Text Styling](#text-styling)
+1. [Headings](#headings)
+	1. [Hashed Headings](#hashed-headings)
+	2. [Heading 1](#heading-1)
+	3. [Heading 2](#heading-2)
+	4. [Heading 3](#heading-3)
+	5. [Heading 4](#heading-4)
+	6. [Heading 5](#heading-5)
+	7. [Heading 6](#heading-6)
+[Alternative Headings](#alternative-headings)
+	1. [Heading 1](#heading-1)
+	2. [Heading 2](#heading-2)
+1. [Links](#links)
+	1. [URL link](#url-link)
+	2. [Bracket Link](#bracket-link)
+	3. [Bracket Link w/Title Text](#bracket-link-wtitle-text)
+	4. [Footnote Link](#footnote-link)
+[Images](#images)
+	1. [Bracket Image](#bracket-image)
+	2. [Bracket Image w/Link](#bracket-image-wlink)
+	3. [HTML Image w/Link](#html-image-wlink)
+	4. [Internal Image w/Link](#internal-image-wlink)
+1. [Lists](#lists)
+	1. [Unordered list](#unordered-list)
+	2. [Ordered List](#ordered-list)
+	3. [Nested List](#nested-list)
+1. [Line Breaks, Horizontal Rules and BlockQuotes](#line-breaks-horizontal-rules-and-blockquotes)
+	1. [Single Line Break](#single-line-break)
+	2. [Double Line Break](#double-line-break)
+	3. [Horizontal Rule](#horizontal-rule)
+	4. [BlockQuote](#blockquote)
+1. [Code](#code)
+	1. [Code - BlocIndentation](#code-block---indentation)
+	2. [Code - BlocBack Ticks](#code-block---back-ticks)
+	3. [Diff Code Block](#diff-code-block)
+	4. [Inline Code](#inline-code)
+1. [Tables](#tables)
+1. [Checkboxes](#checkboxes)
 
 
 ## Paragraph Text
@@ -63,29 +61,25 @@ Example paragraph with multiple lines of text...Integer posuere erat a ante vene
 
 **Bold Text** 
 
-```md
-	**Bold Text**
-```
+```**Bold Text**```
 
 <br>
 
-_Italic Text_
+_Italic Text_ 
 
-```md
-	_Italic Text_
-```
+```_Italic Text_```
 
 <br>
 
 *Italic Text*
 
-**Example:** &ast;Italic Text&ast;
+```*Italic Text*```
 
 <br>
 
 ~~Strikethrough Text~~ 
 
-**Example:** &tilde;&tilde;Strikethrough Text&tilde;&tilde;
+```~~Strikethrough Text~~```
 
 <br>
 
@@ -101,42 +95,38 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 
 # Heading 1
 
-**Example:** &#35; Heading 1
-
 <br>
 
 ## Heading 2
-
-**Example:** &#35;&#35; Heading 2
 
 <br>
 
 ### Heading 3
 
-**Example:** &#35;&#35;&#35; Heading 3
-
-
 <br>
 
 #### Heading 4
-
-**Example:** &#35;&#35;&#35;&#35; Heading 4
 
 <br>
 
 ##### Heading 5
 
-**Example:** &#35;&#35;&#35;&#35;&#35; Heading 5
-
 <br>
 
 ###### Heading 6
 
-**Example:** &#35;&#35;&#35;&#35;&#35;&#35; Heading 6
-
 <br>
 
-### Headings with Equal Signs or Dashes
+```md
+	# Heading 1
+	## Heading 2
+	### Heading 3
+	#### Heading 4
+	##### Heading 5
+	###### Heading 6
+```
+
+### Alternative Headings
 
 You need atleast 3 symbols to trigger this style of heading.
 
