@@ -6,37 +6,47 @@ This markdown file contains all the lessons and example code from [Wes Bos'][2] 
 
 ## Table of Contents
 
-1. [Paragraph Text](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#paragraph-text)
-2. [Text Styling](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#text-styling)
-3. [Headings](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#headings)
-	1. [Hashed Headings](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#hashed-headings)
-	2. [Headings with Equal Signs or Dashes](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#headings-with-equal-signs-or-dashes)
-4. [Links](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#links)
-	1. [URL Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#url-link)
-	2. [Bracket Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#bracket-link)
-	3. [Bracket Link w/Title Text](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#bracket-link-wtitle-text)
-	4. [Footnote Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#footnote-link)
-5. [Images](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#images)
-	1. [Bracket Image](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#bracket-image)
-	2. [Bracket Image w/Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#bracket-image-wlink)
-	3. [HTML Image w/Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#html-image-wlink)
-	4. [Internal Image w/Link](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#internal-image-wlink)
-6. [Lists](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#lists)
-	1. [Unordered List](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#unordered-list)
-	2. [Ordered List](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#ordered-list)
-	3. [Nested List](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#nested-list)
-7. [Line Breaks, Horizontal Rules and BlockQuotes](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#line-breaks-horizontal-rules-and-blockquotes)
-	1. [Single Line Break](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#single-line-break)
-	2. [Double Line Break](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#double-line-break)
-	3. [Horizontal Rule](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#horizontal-rule)
-	4. [BlockQuote](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#blockquote)
-8. [Code](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code)
-	1. [Code Block - Indentation](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code-block---indentation)
-	2. [Code Block - Back Ticks](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#code-block---back-ticks)
-	3. [Diff Code Block](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#diff-code-block)
-	4. [Inline Code](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#inline-code)
-9. [Tables](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#tables)
-10. [Checkboxes](https://github.com/TJBriggs/mastering-markdown/blob/master/markdown.md#checkboxes)
+- [Mastering Markdown](#mastering-markdown)
+	- [Table of Contents](#table-of-contents)
+	- [Paragraph Text](#paragraph-text)
+	- [Text Styling](#text-styling)
+	- [Headings](#headings)
+		- [Hashed Headings](#hashed-headings)
+- [Heading 1](#heading-1)
+	- [Heading 2](#heading-2)
+		- [Heading 3](#heading-3)
+			- [Heading 4](#heading-4)
+				- [Heading 5](#heading-5)
+					- [Heading 6](#heading-6)
+		- [Headings with Equal Signs or Dashes](#headings-with-equal-signs-or-dashes)
+- [Heading 1](#heading-1)
+	- [Heading 2](#heading-2)
+	- [Links](#links)
+		- [URL link](#url-link)
+		- [Bracket Link](#bracket-link)
+		- [Bracket Link w/Title Text](#bracket-link-wtitle-text)
+		- [Footnote Link](#footnote-link)
+	- [Images](#images)
+		- [Bracket Image](#bracket-image)
+		- [Bracket Image w/Link](#bracket-image-wlink)
+		- [HTML Image w/Link](#html-image-wlink)
+		- [Internal Image w/Link](#internal-image-wlink)
+	- [Lists](#lists)
+		- [Unordered list](#unordered-list)
+		- [Ordered List](#ordered-list)
+			- [Nested List](#nested-list)
+	- [Line Breaks, Horizontal Rules and BlockQuotes](#line-breaks-horizontal-rules-and-blockquotes)
+		- [Single Line Break](#single-line-break)
+		- [Double Line Break](#double-line-break)
+		- [Horizontal Rule](#horizontal-rule)
+		- [BlockQuote](#blockquote)
+	- [Code](#code)
+		- [Code Block - Indentation](#code-block---indentation)
+		- [Code Block - Back Ticks](#code-block---back-ticks)
+		- [Diff Code Block](#diff-code-block)
+		- [Inline Code](#inline-code)
+	- [Tables](#tables)
+	- [Checkboxes](#checkboxes)
 
 
 ## Paragraph Text
@@ -53,13 +63,17 @@ Example paragraph with multiple lines of text...Integer posuere erat a ante vene
 
 **Bold Text** 
 
-**Example:** &ast;&ast;Bold Text&ast;&ast;
+```md
+	**Bold Text**
+```
 
 <br>
 
-_Italic Text_ 
+_Italic Text_
 
-**Example:** &lowbar;Italic Text&lowbar;
+```md
+	_Italic Text_
+```
 
 <br>
 
