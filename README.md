@@ -48,8 +48,6 @@ Headings create IDs for anchor linking which can come in handy for a table of co
 
 **Note:** Headings created with hashes have up to 6 variations.
 
-<br>
-
 # Heading 1
 
 <br>
@@ -117,7 +115,7 @@ Heading 2
 
 <http://thadbriggs.com>
 
-**Example:** \<http://<span></span>thadbriggs.com>
+```<http://thadbriggs.com>```
 
 <br/>
 
@@ -125,7 +123,7 @@ Heading 2
 
 [Link Text](http://thadbriggs.com)
 
-**Example:** &lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com&rpar;
+```[Link Text](http://thadbriggs.com)```
 
 <br/>
 
@@ -135,7 +133,7 @@ Hover over the link to view the title text.
 
 [Link Text](http://thadbriggs.com "This is a link to my site.")
 
-**Example:** &lsqb;Link Text&rsqb;&lpar;http://thadbriggs.com "This is a link to my site."&rpar;
+```[Link Text](http://thadbriggs.com "This is a link to my site.")```
 
 <br/>
 
@@ -147,11 +145,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 **Example link w/key:** 
 
-&lsqb;Link Text&rsqb;&lsqb;1&rsqb;
+```[Link Text][1]```
 
 **Example footnote key defined at bottom of the document:** 
 
-&lsqb;1&rsqb;: http://<span></span>thadbriggs.com
+```[1]: http://thadbriggs.com```
 
 <br/>
 
@@ -161,9 +159,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 ![Alt text for the image](http://unsplash.it/50/50?random "Title text for image")
 
-**Example:** 
-
-&excl;&lsqb;Alt text for the image&rsqb;&lpar;http://unsplash.it/500/500?random "Title text for image"&rpar;
+```![Alt text for the image](http://unsplash.it/50/50?random "Title text for image")```
 
 <br/>
 
@@ -171,9 +167,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 [ ![Alt text for the image](http://unsplash.it/50/50?image=500) ](http://unsplash.it/500/500?image=500 "Title text for link")
 
-**Example:** 
-
-&lsqb; &excl;&lsqb;Alt text for the image&rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=500&rpar; &rsqb;&lpar;http://<span></span>unsplash.it/500/500?image=500 "Title text for link"&rpar;
+```[ ![Alt text for the image](http://unsplash.it/50/50?image=500) ](http://unsplash.it/500/500?image=500 "Title text for link")```
 
 <br/>
 
@@ -181,17 +175,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus a
 
 [ <img src="http://unsplash.it/50/50?image=250" alt="Alt text"> ](http://unsplash.it/500/500?image=250 "Title text for link")
 
-**Example:** 
-
-&lsqb; &lt;img src="http://<span></span>unsplash.it/50/50?image=250" alt="Alt text"&gt; &rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=250&rpar; &rsqb;&lpar;http://<span></span>unsplash.it/500/500?image=250 "Title text for link"&rpar;
+```[ <img src="http://unsplash.it/50/50?image=250" alt="Alt text"> ](http://unsplash.it/500/500?image=250 "Title text for link")```
 
 ### Internal Image w/Link
 
 [ <img src="images/image-thumb.jpg" alt="Alt text"> ](images/image.jpg "Title text for link")
 
-**Example:** 
-
-&lsqb; &lt;img src="images/image-thumb.jpg" alt="Alt text"&gt; &rsqb;&lpar;http://<span></span>unsplash.it/50/50?image=300&rpar; &rsqb;&lpar;images/image.jpg "Title text for link"&rpar;
+```[ <img src="images/image-thumb.jpg" alt="Alt text"> ](images/image.jpg "Title text for link")```
 
 <br/>
 
@@ -206,12 +196,12 @@ Bullets can be created with &ast; or &plus; symbols.
 + List Item 3
 * List Item 4
 
-**Example:**
-
-&plus; List Item 1<br/>
-&ast;  List Item 2<br/>
-&plus; List Item 3<br/>
-&ast;  List Item 4
+```
+	+ List Item 1
+	* List Item 2
+	+ List Item 3
+	* List Item 4
+```
 
 <br/>
 
@@ -224,12 +214,12 @@ Bullets can be created with &ast; or &plus; symbols.
 
 _Start each ordered list with `1.` so that numbering automatically updates when new items are added._
 
-**Example:**
-
-<span></span>1. List Item 1<br/>
-<span></span>1. List Item 2<br/>
-<span></span>1. List Item 3<br/>
-<span></span>1. List Item 4
+```
+	1. List Item 1
+	1. List Item 2
+	1. List Item 3
+	1. List Item 4
+```
 
 <br/>
 
@@ -243,15 +233,15 @@ _Start each ordered list with `1.` so that numbering automatically updates when 
 	+ Nested Item
 4. List Item 4
 
-**Example:**
-
-<span></span>1. List Item 1<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&ast; Nested Item<br>
-<span></span>1. List Item 2<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<span></span>1. Nested Item<br>
-<span></span>1. List Item 3<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&plus; Nested Item<br>
-<span></span>1. List Item 4
+```
+	1. List Item 1
+		* Nested Item
+	1. List Item 2
+		1. Nested Item
+	1. List Item 3
+		+ Nested Item
+	1. List Item 4	
+```
 
 <br>
 
@@ -262,10 +252,10 @@ _Start each ordered list with `1.` so that numbering automatically updates when 
 Single<br>
 Line Break
 
-**Example:** 
-
-Single&lt;br&gt;<br>
-Line Break
+```
+	Single<br>
+	Line Break
+```
 
 <br>
 
@@ -277,11 +267,12 @@ Line Break
 
 _Simply add a return between lines to create a double line break._
 
-**Example:** 
+```
+	Double
 
-Double
-<br><br>
-Line Break
+	Line Break
+
+```
 
 <br>
 
@@ -293,13 +284,14 @@ Element or text before rule
 
 Element or text after rule
 
-**Example:**
 
-Element or text before rule
-<br><br>
-&minus;&minus;&minus;
-<br><br>
-Element or text after rule
+```
+	Element or text before rule
+
+	---
+
+	Element or text after rule
+```
 
 <br>
 
@@ -309,11 +301,11 @@ Element or text after rule
 >
 > — Quote Byline
 
-**Example:**
-
-&gt; Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.<br>
-&gt;<br>
-&gt; &mdash; Quote Byline
+```
+	> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+	>
+	> — Quote Byline
+```
 
 <br>
 
@@ -324,10 +316,10 @@ Element or text after rule
 	const x = 1 + 5;
 	const y = x + 3;
 
-**Example:**
-
-&nbsp;&nbsp;&nbsp;&nbsp;const x = 1 + 5;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;const y = x + 3;
+```
+	const x = 1 + 5;
+	const y = x + 3;
+```
 
 <br>
 
@@ -383,12 +375,12 @@ Use pipes &vert; to seperate columns and cells. Align text with the use of colon
 |Row 1/Cell 1|Row 1/Cell 2|
 |Row 2/Cell 1|Row 2/Cell 2|
 
-**Example:**
-
-&vert;Column 1 Title&vert;Column 2 Title&vert;<br>
-&vert;&colon;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&colon;&vert;&colon;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&minus;&colon;&vert;<br>
-&vert;Row 1/Cell 1&vert;Row 1/Cell 2&vert;<br>
-&vert;Row 2/Cell 1&vert;Row 2/Cell 2&vert;
+```
+	|Column 1 Title|Column 2 Title|
+	|:------------:|:------------:|
+	|Row 1/Cell 1|Row 1/Cell 2|
+	|Row 2/Cell 1|Row 2/Cell 2|
+```
 
 <br>
 
@@ -398,11 +390,11 @@ Use pipes &vert; to seperate columns and cells. Align text with the use of colon
 * [x] Crack Eggs
 * [ ] Cook Bacon
 
-**Example:**
-
-&ast; &lsqb; &rsqb; Get Milk<br>
-&ast; &lsqb;x&rsqb; Crack Eggs<br>
-&ast; &lsqb; &rsqb; Cook Bacon
+```
+	* [ ] Get Milk
+	* [x] Crack Eggs
+	* [ ] Cook Bacon
+```
 
 <br>
 
